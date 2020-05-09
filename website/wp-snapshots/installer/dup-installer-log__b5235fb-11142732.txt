@@ -1,0 +1,624 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 02:30:59
+* VERSION: 1.3.22
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.16                                |7.3.5
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2020-04-11 14:27:32
+WP VERSION__________: 5.3.2
+DUP VERSION_________: 1.3.22
+DB__________________: 5.7.28
+DB TABLES___________: 41
+DB ROWS_____________: 41,443
+DB FILE SIZE________: 25.2MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.3.5 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.39 (Win64) PHP/7.3.5
+DOC ROOT____________: "C:/wamp64/www/la_globale"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/la_globale/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "duparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "laglobale_20191014_b5235fb686605fbd9146_20200411142732_archive.daf"
+SIZE________________: 59.09MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+>>> DupArchive Extraction Complete
+
+--------------------------------------
+DUPARCHIVE EXTRACTION STATUS
+--------------------------------------
+Archive extracted with no errors.
+
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 02:30:59 - RUNTIME: 0.0030 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 02:32:25
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.26 -- Build Server: 5.7.28
+FILE SIZE:	dup-database__b5235fb-11142732.sql (12.21MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	STRICT_ALL_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER
+NEW SQL FILE:	[C:/wamp64/www/la_globale/dup-installer/dup-installer-data__b5235fb-11142732.sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.7.26] is less than the build version [5.7.28].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+[PHP ERR][WARN] MSG:count(): Parameter must be an array or an object that implements Countable [CODE:2|FILE:C:\wamp64\www\la_globale\dup-installer\ctrls\ctrl.s2.dbinstall.php|LINE:386]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	368
+
+wp_commentmeta: (0)
+wp_comments: (0)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_my_calendar: (1)
+wp_my_calendar_categories: (2)
+wp_my_calendar_category_relationships: (1)
+wp_my_calendar_events: (1)
+wp_my_calendar_locations: (1)
+wp_options: (448)
+wp_postmeta: (27334)
+wp_posts: (1300)
+wp_qsot_event_zone_to_order: (0)
+wp_qsot_ticket_codes: (0)
+wp_sg_action: (1)
+wp_sg_config: (22)
+wp_sg_schedule: (0)
+wp_term_relationships: (6)
+wp_term_taxonomy: (24)
+wp_termmeta: (0)
+wp_terms: (24)
+wp_usermeta: (85)
+wp_users: (3)
+wp_wc_download_log: (0)
+wp_wc_product_meta_lookup: (0)
+wp_wc_tax_rate_classes: (2)
+wp_wc_webhooks: (0)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (0)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (0)
+wp_woocommerce_order_items: (0)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (1)
+wp_woocommerce_shipping_zone_locations: (0)
+wp_woocommerce_shipping_zone_methods: (0)
+wp_woocommerce_shipping_zones: (0)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+Removed '5760' cache/transient rows
+
+INSERT DATA RUNTIME: 2.2159 sec.
+STEP-2 COMPLETE @ 02:32:27 - RUNTIME: 2.2298 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 02:32:36
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "La globale"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/homepages/22/d799636778/htdocs/clickandbuilds/LaGlobale/"
+path_new______________: "C:/wamp64/www/la_globale/"
+siteurl_______________: "http://localhost/la_globale"
+url_old_______________: "https://laglobale.fr"
+url_new_______________: "http://localhost/la_globale"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "root"
+dbname________________: "la_globale"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_my_calendar"__________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/22/d799636778/htdocs/clickandbuilds/LaGlobale/" => "C:/wamp64/www/la_globale/"
+	SEARCH  2:"\/homepages\/22\/d799636778\/htdocs\/clickandbuilds\/LaGlobale\/" => "C:\/wamp64\/www\/la_globale\/"
+	SEARCH  3:"%2Fhomepages%2F22%2Fd799636778%2Fhtdocs%2Fclickandbuilds%2FLaGlobale%2F" => "C%3A%2Fwamp64%2Fwww%2Fla_globale%2F"
+	SEARCH  4:"\homepages\22\d799636778\htdocs\clickandbuilds\LaGlobale" => "C:/wamp64/www/la_globale"
+	SEARCH  5:"\\homepages\\22\\d799636778\\htdocs\\clickandbuilds\\LaGlobale" => "C:\/wamp64\/www\/la_globale"
+	SEARCH  6:"%5Chomepages%5C22%5Cd799636778%5Chtdocs%5Cclickandbuilds%5CLaGlobale" => "C%3A%2Fwamp64%2Fwww%2Fla_globale"
+	SEARCH  7:"//laglobale.fr" ==================================> "//localhost/la_globale"
+	SEARCH  8:"\/\/laglobale.fr" ================================> "\/\/localhost\/la_globale"
+	SEARCH  9:"%2F%2Flaglobale.fr" ==============================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 10:"//www.laglobale.fr" ==============================> "//localhost/la_globale"
+	SEARCH 11:"\/\/www.laglobale.fr" ============================> "\/\/localhost\/la_globale"
+	SEARCH 12:"%2F%2Fwww.laglobale.fr" ==========================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 13:"https://localhost/la_globale" ====================> "http://localhost/la_globale"
+	SEARCH 14:"https:\/\/localhost\/la_globale" =================> "http:\/\/localhost\/la_globale"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fla_globale" ============> "http%3A%2F%2Flocalhost%2Fla_globale"
+
+EVALUATE TABLE: "wp_my_calendar_categories"_______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/22/d799636778/htdocs/clickandbuilds/LaGlobale/" => "C:/wamp64/www/la_globale/"
+	SEARCH  2:"\/homepages\/22\/d799636778\/htdocs\/clickandbuilds\/LaGlobale\/" => "C:\/wamp64\/www\/la_globale\/"
+	SEARCH  3:"%2Fhomepages%2F22%2Fd799636778%2Fhtdocs%2Fclickandbuilds%2FLaGlobale%2F" => "C%3A%2Fwamp64%2Fwww%2Fla_globale%2F"
+	SEARCH  4:"\homepages\22\d799636778\htdocs\clickandbuilds\LaGlobale" => "C:/wamp64/www/la_globale"
+	SEARCH  5:"\\homepages\\22\\d799636778\\htdocs\\clickandbuilds\\LaGlobale" => "C:\/wamp64\/www\/la_globale"
+	SEARCH  6:"%5Chomepages%5C22%5Cd799636778%5Chtdocs%5Cclickandbuilds%5CLaGlobale" => "C%3A%2Fwamp64%2Fwww%2Fla_globale"
+	SEARCH  7:"//laglobale.fr" ==================================> "//localhost/la_globale"
+	SEARCH  8:"\/\/laglobale.fr" ================================> "\/\/localhost\/la_globale"
+	SEARCH  9:"%2F%2Flaglobale.fr" ==============================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 10:"//www.laglobale.fr" ==============================> "//localhost/la_globale"
+	SEARCH 11:"\/\/www.laglobale.fr" ============================> "\/\/localhost\/la_globale"
+	SEARCH 12:"%2F%2Fwww.laglobale.fr" ==========================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 13:"https://localhost/la_globale" ====================> "http://localhost/la_globale"
+	SEARCH 14:"https:\/\/localhost\/la_globale" =================> "http:\/\/localhost\/la_globale"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fla_globale" ============> "http%3A%2F%2Flocalhost%2Fla_globale"
+
+EVALUATE TABLE: "wp_my_calendar_category_relationships"___________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/22/d799636778/htdocs/clickandbuilds/LaGlobale/" => "C:/wamp64/www/la_globale/"
+	SEARCH  2:"\/homepages\/22\/d799636778\/htdocs\/clickandbuilds\/LaGlobale\/" => "C:\/wamp64\/www\/la_globale\/"
+	SEARCH  3:"%2Fhomepages%2F22%2Fd799636778%2Fhtdocs%2Fclickandbuilds%2FLaGlobale%2F" => "C%3A%2Fwamp64%2Fwww%2Fla_globale%2F"
+	SEARCH  4:"\homepages\22\d799636778\htdocs\clickandbuilds\LaGlobale" => "C:/wamp64/www/la_globale"
+	SEARCH  5:"\\homepages\\22\\d799636778\\htdocs\\clickandbuilds\\LaGlobale" => "C:\/wamp64\/www\/la_globale"
+	SEARCH  6:"%5Chomepages%5C22%5Cd799636778%5Chtdocs%5Cclickandbuilds%5CLaGlobale" => "C%3A%2Fwamp64%2Fwww%2Fla_globale"
+	SEARCH  7:"//laglobale.fr" ==================================> "//localhost/la_globale"
+	SEARCH  8:"\/\/laglobale.fr" ================================> "\/\/localhost\/la_globale"
+	SEARCH  9:"%2F%2Flaglobale.fr" ==============================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 10:"//www.laglobale.fr" ==============================> "//localhost/la_globale"
+	SEARCH 11:"\/\/www.laglobale.fr" ============================> "\/\/localhost\/la_globale"
+	SEARCH 12:"%2F%2Fwww.laglobale.fr" ==========================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 13:"https://localhost/la_globale" ====================> "http://localhost/la_globale"
+	SEARCH 14:"https:\/\/localhost\/la_globale" =================> "http:\/\/localhost\/la_globale"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fla_globale" ============> "http%3A%2F%2Flocalhost%2Fla_globale"
+
+EVALUATE TABLE: "wp_my_calendar_events"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/22/d799636778/htdocs/clickandbuilds/LaGlobale/" => "C:/wamp64/www/la_globale/"
+	SEARCH  2:"\/homepages\/22\/d799636778\/htdocs\/clickandbuilds\/LaGlobale\/" => "C:\/wamp64\/www\/la_globale\/"
+	SEARCH  3:"%2Fhomepages%2F22%2Fd799636778%2Fhtdocs%2Fclickandbuilds%2FLaGlobale%2F" => "C%3A%2Fwamp64%2Fwww%2Fla_globale%2F"
+	SEARCH  4:"\homepages\22\d799636778\htdocs\clickandbuilds\LaGlobale" => "C:/wamp64/www/la_globale"
+	SEARCH  5:"\\homepages\\22\\d799636778\\htdocs\\clickandbuilds\\LaGlobale" => "C:\/wamp64\/www\/la_globale"
+	SEARCH  6:"%5Chomepages%5C22%5Cd799636778%5Chtdocs%5Cclickandbuilds%5CLaGlobale" => "C%3A%2Fwamp64%2Fwww%2Fla_globale"
+	SEARCH  7:"//laglobale.fr" ==================================> "//localhost/la_globale"
+	SEARCH  8:"\/\/laglobale.fr" ================================> "\/\/localhost\/la_globale"
+	SEARCH  9:"%2F%2Flaglobale.fr" ==============================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 10:"//www.laglobale.fr" ==============================> "//localhost/la_globale"
+	SEARCH 11:"\/\/www.laglobale.fr" ============================> "\/\/localhost\/la_globale"
+	SEARCH 12:"%2F%2Fwww.laglobale.fr" ==========================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 13:"https://localhost/la_globale" ====================> "http://localhost/la_globale"
+	SEARCH 14:"https:\/\/localhost\/la_globale" =================> "http:\/\/localhost\/la_globale"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fla_globale" ============> "http%3A%2F%2Flocalhost%2Fla_globale"
+
+EVALUATE TABLE: "wp_my_calendar_locations"________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/22/d799636778/htdocs/clickandbuilds/LaGlobale/" => "C:/wamp64/www/la_globale/"
+	SEARCH  2:"\/homepages\/22\/d799636778\/htdocs\/clickandbuilds\/LaGlobale\/" => "C:\/wamp64\/www\/la_globale\/"
+	SEARCH  3:"%2Fhomepages%2F22%2Fd799636778%2Fhtdocs%2Fclickandbuilds%2FLaGlobale%2F" => "C%3A%2Fwamp64%2Fwww%2Fla_globale%2F"
+	SEARCH  4:"\homepages\22\d799636778\htdocs\clickandbuilds\LaGlobale" => "C:/wamp64/www/la_globale"
+	SEARCH  5:"\\homepages\\22\\d799636778\\htdocs\\clickandbuilds\\LaGlobale" => "C:\/wamp64\/www\/la_globale"
+	SEARCH  6:"%5Chomepages%5C22%5Cd799636778%5Chtdocs%5Cclickandbuilds%5CLaGlobale" => "C%3A%2Fwamp64%2Fwww%2Fla_globale"
+	SEARCH  7:"//laglobale.fr" ==================================> "//localhost/la_globale"
+	SEARCH  8:"\/\/laglobale.fr" ================================> "\/\/localhost\/la_globale"
+	SEARCH  9:"%2F%2Flaglobale.fr" ==============================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 10:"//www.laglobale.fr" ==============================> "//localhost/la_globale"
+	SEARCH 11:"\/\/www.laglobale.fr" ============================> "\/\/localhost\/la_globale"
+	SEARCH 12:"%2F%2Fwww.laglobale.fr" ==========================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 13:"https://localhost/la_globale" ====================> "http://localhost/la_globale"
+	SEARCH 14:"https:\/\/localhost\/la_globale" =================> "http:\/\/localhost\/la_globale"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fla_globale" ============> "http%3A%2F%2Flocalhost%2Fla_globale"
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   448][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/22/d799636778/htdocs/clickandbuilds/LaGlobale/" => "C:/wamp64/www/la_globale/"
+	SEARCH  2:"\/homepages\/22\/d799636778\/htdocs\/clickandbuilds\/LaGlobale\/" => "C:\/wamp64\/www\/la_globale\/"
+	SEARCH  3:"%2Fhomepages%2F22%2Fd799636778%2Fhtdocs%2Fclickandbuilds%2FLaGlobale%2F" => "C%3A%2Fwamp64%2Fwww%2Fla_globale%2F"
+	SEARCH  4:"\homepages\22\d799636778\htdocs\clickandbuilds\LaGlobale" => "C:/wamp64/www/la_globale"
+	SEARCH  5:"\\homepages\\22\\d799636778\\htdocs\\clickandbuilds\\LaGlobale" => "C:\/wamp64\/www\/la_globale"
+	SEARCH  6:"%5Chomepages%5C22%5Cd799636778%5Chtdocs%5Cclickandbuilds%5CLaGlobale" => "C%3A%2Fwamp64%2Fwww%2Fla_globale"
+	SEARCH  7:"//laglobale.fr" ==================================> "//localhost/la_globale"
+	SEARCH  8:"\/\/laglobale.fr" ================================> "\/\/localhost\/la_globale"
+	SEARCH  9:"%2F%2Flaglobale.fr" ==============================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 10:"//www.laglobale.fr" ==============================> "//localhost/la_globale"
+	SEARCH 11:"\/\/www.laglobale.fr" ============================> "\/\/localhost\/la_globale"
+	SEARCH 12:"%2F%2Fwww.laglobale.fr" ==========================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 13:"https://localhost/la_globale" ====================> "http://localhost/la_globale"
+	SEARCH 14:"https:\/\/localhost\/la_globale" =================> "http:\/\/localhost\/la_globale"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fla_globale" ============> "http%3A%2F%2Flocalhost%2Fla_globale"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS: 27334][PG:   8][SCAN:text columns]
+	SEARCH  1:"/homepages/22/d799636778/htdocs/clickandbuilds/LaGlobale/" => "C:/wamp64/www/la_globale/"
+	SEARCH  2:"\/homepages\/22\/d799636778\/htdocs\/clickandbuilds\/LaGlobale\/" => "C:\/wamp64\/www\/la_globale\/"
+	SEARCH  3:"%2Fhomepages%2F22%2Fd799636778%2Fhtdocs%2Fclickandbuilds%2FLaGlobale%2F" => "C%3A%2Fwamp64%2Fwww%2Fla_globale%2F"
+	SEARCH  4:"\homepages\22\d799636778\htdocs\clickandbuilds\LaGlobale" => "C:/wamp64/www/la_globale"
+	SEARCH  5:"\\homepages\\22\\d799636778\\htdocs\\clickandbuilds\\LaGlobale" => "C:\/wamp64\/www\/la_globale"
+	SEARCH  6:"%5Chomepages%5C22%5Cd799636778%5Chtdocs%5Cclickandbuilds%5CLaGlobale" => "C%3A%2Fwamp64%2Fwww%2Fla_globale"
+	SEARCH  7:"//laglobale.fr" ==================================> "//localhost/la_globale"
+	SEARCH  8:"\/\/laglobale.fr" ================================> "\/\/localhost\/la_globale"
+	SEARCH  9:"%2F%2Flaglobale.fr" ==============================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 10:"//www.laglobale.fr" ==============================> "//localhost/la_globale"
+	SEARCH 11:"\/\/www.laglobale.fr" ============================> "\/\/localhost\/la_globale"
+	SEARCH 12:"%2F%2Fwww.laglobale.fr" ==========================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 13:"https://localhost/la_globale" ====================> "http://localhost/la_globale"
+	SEARCH 14:"https:\/\/localhost\/la_globale" =================> "http:\/\/localhost\/la_globale"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fla_globale" ============> "http%3A%2F%2Flocalhost%2Fla_globale"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:  1300][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/22/d799636778/htdocs/clickandbuilds/LaGlobale/" => "C:/wamp64/www/la_globale/"
+	SEARCH  2:"\/homepages\/22\/d799636778\/htdocs\/clickandbuilds\/LaGlobale\/" => "C:\/wamp64\/www\/la_globale\/"
+	SEARCH  3:"%2Fhomepages%2F22%2Fd799636778%2Fhtdocs%2Fclickandbuilds%2FLaGlobale%2F" => "C%3A%2Fwamp64%2Fwww%2Fla_globale%2F"
+	SEARCH  4:"\homepages\22\d799636778\htdocs\clickandbuilds\LaGlobale" => "C:/wamp64/www/la_globale"
+	SEARCH  5:"\\homepages\\22\\d799636778\\htdocs\\clickandbuilds\\LaGlobale" => "C:\/wamp64\/www\/la_globale"
+	SEARCH  6:"%5Chomepages%5C22%5Cd799636778%5Chtdocs%5Cclickandbuilds%5CLaGlobale" => "C%3A%2Fwamp64%2Fwww%2Fla_globale"
+	SEARCH  7:"//laglobale.fr" ==================================> "//localhost/la_globale"
+	SEARCH  8:"\/\/laglobale.fr" ================================> "\/\/localhost\/la_globale"
+	SEARCH  9:"%2F%2Flaglobale.fr" ==============================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 10:"//www.laglobale.fr" ==============================> "//localhost/la_globale"
+	SEARCH 11:"\/\/www.laglobale.fr" ============================> "\/\/localhost\/la_globale"
+	SEARCH 12:"%2F%2Fwww.laglobale.fr" ==========================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 13:"https://localhost/la_globale" ====================> "http://localhost/la_globale"
+	SEARCH 14:"https:\/\/localhost\/la_globale" =================> "http:\/\/localhost\/la_globale"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fla_globale" ============> "http%3A%2F%2Flocalhost%2Fla_globale"
+
+EVALUATE TABLE: "wp_qsot_event_zone_to_order"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_qsot_ticket_codes"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_sg_action"____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/22/d799636778/htdocs/clickandbuilds/LaGlobale/" => "C:/wamp64/www/la_globale/"
+	SEARCH  2:"\/homepages\/22\/d799636778\/htdocs\/clickandbuilds\/LaGlobale\/" => "C:\/wamp64\/www\/la_globale\/"
+	SEARCH  3:"%2Fhomepages%2F22%2Fd799636778%2Fhtdocs%2Fclickandbuilds%2FLaGlobale%2F" => "C%3A%2Fwamp64%2Fwww%2Fla_globale%2F"
+	SEARCH  4:"\homepages\22\d799636778\htdocs\clickandbuilds\LaGlobale" => "C:/wamp64/www/la_globale"
+	SEARCH  5:"\\homepages\\22\\d799636778\\htdocs\\clickandbuilds\\LaGlobale" => "C:\/wamp64\/www\/la_globale"
+	SEARCH  6:"%5Chomepages%5C22%5Cd799636778%5Chtdocs%5Cclickandbuilds%5CLaGlobale" => "C%3A%2Fwamp64%2Fwww%2Fla_globale"
+	SEARCH  7:"//laglobale.fr" ==================================> "//localhost/la_globale"
+	SEARCH  8:"\/\/laglobale.fr" ================================> "\/\/localhost\/la_globale"
+	SEARCH  9:"%2F%2Flaglobale.fr" ==============================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 10:"//www.laglobale.fr" ==============================> "//localhost/la_globale"
+	SEARCH 11:"\/\/www.laglobale.fr" ============================> "\/\/localhost\/la_globale"
+	SEARCH 12:"%2F%2Fwww.laglobale.fr" ==========================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 13:"https://localhost/la_globale" ====================> "http://localhost/la_globale"
+	SEARCH 14:"https:\/\/localhost\/la_globale" =================> "http:\/\/localhost\/la_globale"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fla_globale" ============> "http%3A%2F%2Flocalhost%2Fla_globale"
+
+EVALUATE TABLE: "wp_sg_config"____________________________________[ROWS:    22][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/22/d799636778/htdocs/clickandbuilds/LaGlobale/" => "C:/wamp64/www/la_globale/"
+	SEARCH  2:"\/homepages\/22\/d799636778\/htdocs\/clickandbuilds\/LaGlobale\/" => "C:\/wamp64\/www\/la_globale\/"
+	SEARCH  3:"%2Fhomepages%2F22%2Fd799636778%2Fhtdocs%2Fclickandbuilds%2FLaGlobale%2F" => "C%3A%2Fwamp64%2Fwww%2Fla_globale%2F"
+	SEARCH  4:"\homepages\22\d799636778\htdocs\clickandbuilds\LaGlobale" => "C:/wamp64/www/la_globale"
+	SEARCH  5:"\\homepages\\22\\d799636778\\htdocs\\clickandbuilds\\LaGlobale" => "C:\/wamp64\/www\/la_globale"
+	SEARCH  6:"%5Chomepages%5C22%5Cd799636778%5Chtdocs%5Cclickandbuilds%5CLaGlobale" => "C%3A%2Fwamp64%2Fwww%2Fla_globale"
+	SEARCH  7:"//laglobale.fr" ==================================> "//localhost/la_globale"
+	SEARCH  8:"\/\/laglobale.fr" ================================> "\/\/localhost\/la_globale"
+	SEARCH  9:"%2F%2Flaglobale.fr" ==============================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 10:"//www.laglobale.fr" ==============================> "//localhost/la_globale"
+	SEARCH 11:"\/\/www.laglobale.fr" ============================> "\/\/localhost\/la_globale"
+	SEARCH 12:"%2F%2Fwww.laglobale.fr" ==========================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 13:"https://localhost/la_globale" ====================> "http://localhost/la_globale"
+	SEARCH 14:"https:\/\/localhost\/la_globale" =================> "http:\/\/localhost\/la_globale"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fla_globale" ============> "http%3A%2F%2Flocalhost%2Fla_globale"
+
+EVALUATE TABLE: "wp_sg_schedule"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/22/d799636778/htdocs/clickandbuilds/LaGlobale/" => "C:/wamp64/www/la_globale/"
+	SEARCH  2:"\/homepages\/22\/d799636778\/htdocs\/clickandbuilds\/LaGlobale\/" => "C:\/wamp64\/www\/la_globale\/"
+	SEARCH  3:"%2Fhomepages%2F22%2Fd799636778%2Fhtdocs%2Fclickandbuilds%2FLaGlobale%2F" => "C%3A%2Fwamp64%2Fwww%2Fla_globale%2F"
+	SEARCH  4:"\homepages\22\d799636778\htdocs\clickandbuilds\LaGlobale" => "C:/wamp64/www/la_globale"
+	SEARCH  5:"\\homepages\\22\\d799636778\\htdocs\\clickandbuilds\\LaGlobale" => "C:\/wamp64\/www\/la_globale"
+	SEARCH  6:"%5Chomepages%5C22%5Cd799636778%5Chtdocs%5Cclickandbuilds%5CLaGlobale" => "C%3A%2Fwamp64%2Fwww%2Fla_globale"
+	SEARCH  7:"//laglobale.fr" ==================================> "//localhost/la_globale"
+	SEARCH  8:"\/\/laglobale.fr" ================================> "\/\/localhost\/la_globale"
+	SEARCH  9:"%2F%2Flaglobale.fr" ==============================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 10:"//www.laglobale.fr" ==============================> "//localhost/la_globale"
+	SEARCH 11:"\/\/www.laglobale.fr" ============================> "\/\/localhost\/la_globale"
+	SEARCH 12:"%2F%2Fwww.laglobale.fr" ==========================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 13:"https://localhost/la_globale" ====================> "http://localhost/la_globale"
+	SEARCH 14:"https:\/\/localhost\/la_globale" =================> "http:\/\/localhost\/la_globale"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fla_globale" ============> "http%3A%2F%2Flocalhost%2Fla_globale"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    24][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/22/d799636778/htdocs/clickandbuilds/LaGlobale/" => "C:/wamp64/www/la_globale/"
+	SEARCH  2:"\/homepages\/22\/d799636778\/htdocs\/clickandbuilds\/LaGlobale\/" => "C:\/wamp64\/www\/la_globale\/"
+	SEARCH  3:"%2Fhomepages%2F22%2Fd799636778%2Fhtdocs%2Fclickandbuilds%2FLaGlobale%2F" => "C%3A%2Fwamp64%2Fwww%2Fla_globale%2F"
+	SEARCH  4:"\homepages\22\d799636778\htdocs\clickandbuilds\LaGlobale" => "C:/wamp64/www/la_globale"
+	SEARCH  5:"\\homepages\\22\\d799636778\\htdocs\\clickandbuilds\\LaGlobale" => "C:\/wamp64\/www\/la_globale"
+	SEARCH  6:"%5Chomepages%5C22%5Cd799636778%5Chtdocs%5Cclickandbuilds%5CLaGlobale" => "C%3A%2Fwamp64%2Fwww%2Fla_globale"
+	SEARCH  7:"//laglobale.fr" ==================================> "//localhost/la_globale"
+	SEARCH  8:"\/\/laglobale.fr" ================================> "\/\/localhost\/la_globale"
+	SEARCH  9:"%2F%2Flaglobale.fr" ==============================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 10:"//www.laglobale.fr" ==============================> "//localhost/la_globale"
+	SEARCH 11:"\/\/www.laglobale.fr" ============================> "\/\/localhost\/la_globale"
+	SEARCH 12:"%2F%2Fwww.laglobale.fr" ==========================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 13:"https://localhost/la_globale" ====================> "http://localhost/la_globale"
+	SEARCH 14:"https:\/\/localhost\/la_globale" =================> "http:\/\/localhost\/la_globale"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fla_globale" ============> "http%3A%2F%2Flocalhost%2Fla_globale"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    24][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/22/d799636778/htdocs/clickandbuilds/LaGlobale/" => "C:/wamp64/www/la_globale/"
+	SEARCH  2:"\/homepages\/22\/d799636778\/htdocs\/clickandbuilds\/LaGlobale\/" => "C:\/wamp64\/www\/la_globale\/"
+	SEARCH  3:"%2Fhomepages%2F22%2Fd799636778%2Fhtdocs%2Fclickandbuilds%2FLaGlobale%2F" => "C%3A%2Fwamp64%2Fwww%2Fla_globale%2F"
+	SEARCH  4:"\homepages\22\d799636778\htdocs\clickandbuilds\LaGlobale" => "C:/wamp64/www/la_globale"
+	SEARCH  5:"\\homepages\\22\\d799636778\\htdocs\\clickandbuilds\\LaGlobale" => "C:\/wamp64\/www\/la_globale"
+	SEARCH  6:"%5Chomepages%5C22%5Cd799636778%5Chtdocs%5Cclickandbuilds%5CLaGlobale" => "C%3A%2Fwamp64%2Fwww%2Fla_globale"
+	SEARCH  7:"//laglobale.fr" ==================================> "//localhost/la_globale"
+	SEARCH  8:"\/\/laglobale.fr" ================================> "\/\/localhost\/la_globale"
+	SEARCH  9:"%2F%2Flaglobale.fr" ==============================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 10:"//www.laglobale.fr" ==============================> "//localhost/la_globale"
+	SEARCH 11:"\/\/www.laglobale.fr" ============================> "\/\/localhost\/la_globale"
+	SEARCH 12:"%2F%2Fwww.laglobale.fr" ==========================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 13:"https://localhost/la_globale" ====================> "http://localhost/la_globale"
+	SEARCH 14:"https:\/\/localhost\/la_globale" =================> "http:\/\/localhost\/la_globale"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fla_globale" ============> "http%3A%2F%2Flocalhost%2Fla_globale"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    85][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/22/d799636778/htdocs/clickandbuilds/LaGlobale/" => "C:/wamp64/www/la_globale/"
+	SEARCH  2:"\/homepages\/22\/d799636778\/htdocs\/clickandbuilds\/LaGlobale\/" => "C:\/wamp64\/www\/la_globale\/"
+	SEARCH  3:"%2Fhomepages%2F22%2Fd799636778%2Fhtdocs%2Fclickandbuilds%2FLaGlobale%2F" => "C%3A%2Fwamp64%2Fwww%2Fla_globale%2F"
+	SEARCH  4:"\homepages\22\d799636778\htdocs\clickandbuilds\LaGlobale" => "C:/wamp64/www/la_globale"
+	SEARCH  5:"\\homepages\\22\\d799636778\\htdocs\\clickandbuilds\\LaGlobale" => "C:\/wamp64\/www\/la_globale"
+	SEARCH  6:"%5Chomepages%5C22%5Cd799636778%5Chtdocs%5Cclickandbuilds%5CLaGlobale" => "C%3A%2Fwamp64%2Fwww%2Fla_globale"
+	SEARCH  7:"//laglobale.fr" ==================================> "//localhost/la_globale"
+	SEARCH  8:"\/\/laglobale.fr" ================================> "\/\/localhost\/la_globale"
+	SEARCH  9:"%2F%2Flaglobale.fr" ==============================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 10:"//www.laglobale.fr" ==============================> "//localhost/la_globale"
+	SEARCH 11:"\/\/www.laglobale.fr" ============================> "\/\/localhost\/la_globale"
+	SEARCH 12:"%2F%2Fwww.laglobale.fr" ==========================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 13:"https://localhost/la_globale" ====================> "http://localhost/la_globale"
+	SEARCH 14:"https:\/\/localhost\/la_globale" =================> "http:\/\/localhost\/la_globale"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fla_globale" ============> "http%3A%2F%2Flocalhost%2Fla_globale"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/22/d799636778/htdocs/clickandbuilds/LaGlobale/" => "C:/wamp64/www/la_globale/"
+	SEARCH  2:"\/homepages\/22\/d799636778\/htdocs\/clickandbuilds\/LaGlobale\/" => "C:\/wamp64\/www\/la_globale\/"
+	SEARCH  3:"%2Fhomepages%2F22%2Fd799636778%2Fhtdocs%2Fclickandbuilds%2FLaGlobale%2F" => "C%3A%2Fwamp64%2Fwww%2Fla_globale%2F"
+	SEARCH  4:"\homepages\22\d799636778\htdocs\clickandbuilds\LaGlobale" => "C:/wamp64/www/la_globale"
+	SEARCH  5:"\\homepages\\22\\d799636778\\htdocs\\clickandbuilds\\LaGlobale" => "C:\/wamp64\/www\/la_globale"
+	SEARCH  6:"%5Chomepages%5C22%5Cd799636778%5Chtdocs%5Cclickandbuilds%5CLaGlobale" => "C%3A%2Fwamp64%2Fwww%2Fla_globale"
+	SEARCH  7:"//laglobale.fr" ==================================> "//localhost/la_globale"
+	SEARCH  8:"\/\/laglobale.fr" ================================> "\/\/localhost\/la_globale"
+	SEARCH  9:"%2F%2Flaglobale.fr" ==============================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 10:"//www.laglobale.fr" ==============================> "//localhost/la_globale"
+	SEARCH 11:"\/\/www.laglobale.fr" ============================> "\/\/localhost\/la_globale"
+	SEARCH 12:"%2F%2Fwww.laglobale.fr" ==========================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 13:"https://localhost/la_globale" ====================> "http://localhost/la_globale"
+	SEARCH 14:"https:\/\/localhost\/la_globale" =================> "http:\/\/localhost\/la_globale"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fla_globale" ============> "http%3A%2F%2Flocalhost%2Fla_globale"
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/22/d799636778/htdocs/clickandbuilds/LaGlobale/" => "C:/wamp64/www/la_globale/"
+	SEARCH  2:"\/homepages\/22\/d799636778\/htdocs\/clickandbuilds\/LaGlobale\/" => "C:\/wamp64\/www\/la_globale\/"
+	SEARCH  3:"%2Fhomepages%2F22%2Fd799636778%2Fhtdocs%2Fclickandbuilds%2FLaGlobale%2F" => "C%3A%2Fwamp64%2Fwww%2Fla_globale%2F"
+	SEARCH  4:"\homepages\22\d799636778\htdocs\clickandbuilds\LaGlobale" => "C:/wamp64/www/la_globale"
+	SEARCH  5:"\\homepages\\22\\d799636778\\htdocs\\clickandbuilds\\LaGlobale" => "C:\/wamp64\/www\/la_globale"
+	SEARCH  6:"%5Chomepages%5C22%5Cd799636778%5Chtdocs%5Cclickandbuilds%5CLaGlobale" => "C%3A%2Fwamp64%2Fwww%2Fla_globale"
+	SEARCH  7:"//laglobale.fr" ==================================> "//localhost/la_globale"
+	SEARCH  8:"\/\/laglobale.fr" ================================> "\/\/localhost\/la_globale"
+	SEARCH  9:"%2F%2Flaglobale.fr" ==============================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 10:"//www.laglobale.fr" ==============================> "//localhost/la_globale"
+	SEARCH 11:"\/\/www.laglobale.fr" ============================> "\/\/localhost\/la_globale"
+	SEARCH 12:"%2F%2Fwww.laglobale.fr" ==========================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 13:"https://localhost/la_globale" ====================> "http://localhost/la_globale"
+	SEARCH 14:"https:\/\/localhost\/la_globale" =================> "http:\/\/localhost\/la_globale"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fla_globale" ============> "http%3A%2F%2Flocalhost%2Fla_globale"
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/22/d799636778/htdocs/clickandbuilds/LaGlobale/" => "C:/wamp64/www/la_globale/"
+	SEARCH  2:"\/homepages\/22\/d799636778\/htdocs\/clickandbuilds\/LaGlobale\/" => "C:\/wamp64\/www\/la_globale\/"
+	SEARCH  3:"%2Fhomepages%2F22%2Fd799636778%2Fhtdocs%2Fclickandbuilds%2FLaGlobale%2F" => "C%3A%2Fwamp64%2Fwww%2Fla_globale%2F"
+	SEARCH  4:"\homepages\22\d799636778\htdocs\clickandbuilds\LaGlobale" => "C:/wamp64/www/la_globale"
+	SEARCH  5:"\\homepages\\22\\d799636778\\htdocs\\clickandbuilds\\LaGlobale" => "C:\/wamp64\/www\/la_globale"
+	SEARCH  6:"%5Chomepages%5C22%5Cd799636778%5Chtdocs%5Cclickandbuilds%5CLaGlobale" => "C%3A%2Fwamp64%2Fwww%2Fla_globale"
+	SEARCH  7:"//laglobale.fr" ==================================> "//localhost/la_globale"
+	SEARCH  8:"\/\/laglobale.fr" ================================> "\/\/localhost\/la_globale"
+	SEARCH  9:"%2F%2Flaglobale.fr" ==============================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 10:"//www.laglobale.fr" ==============================> "//localhost/la_globale"
+	SEARCH 11:"\/\/www.laglobale.fr" ============================> "\/\/localhost\/la_globale"
+	SEARCH 12:"%2F%2Fwww.laglobale.fr" ==========================> "%2F%2Flocalhost%2Fla_globale"
+	SEARCH 13:"https://localhost/la_globale" ====================> "http://localhost/la_globale"
+	SEARCH 14:"https:\/\/localhost\/la_globale" =================> "http:\/\/localhost\/la_globale"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fla_globale" ============> "http%3A%2F%2Flocalhost%2Fla_globale"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:41 	|	 Rows:29256 	|	 Cells:141799 
+UPDATED:	Tables:3 	|	 Rows:2553 	|	 Cells:2630 
+ERRORS:		0 
+RUNTIME:	3.819900 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""la_globale""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache 'htaccess.orig' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Activated plugins (If they are activated) listed here will be deactivated: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 02:32:40 - RUNTIME: 3.8897 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

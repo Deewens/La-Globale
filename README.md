@@ -4,5 +4,5 @@ Site web de vente de tickets électroniques créé à l'aide du CMS Wordpress po
 
 ## Auteurs
 
-Deewens
+Deewens  
 Arthur (https://github.com/Arthur57255)
